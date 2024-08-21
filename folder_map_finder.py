@@ -43,6 +43,6 @@ def log_files_in_directory(directory):
     print(f"Directory contents have been logged to {log_file_name}")
 
 if __name__ == "__main__":
-    directory_to_scan = "D:\\G"  # Replace with your target directory
+    directory_to_scan = "Directory or File Name"  # Replace with your target directory
 
     log_files_in_directory(directory_to_scan)
