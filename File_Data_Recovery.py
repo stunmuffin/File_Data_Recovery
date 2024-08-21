@@ -263,20 +263,20 @@ def recover_folder(source_folder, dest_folder):
 
 
 if __name__ == "__main__":
-    source_directory = "Source Directory"
-    destination_directory = "Destination Directory"
+    #source_directory = "D:\\"
+    destination_directory = "./" #It creates same directory
     
     # Recover specific file types
     # extensions = [".jpg", ".jpeg", ".tif", ".tiff", ".png", ".psd"]  # List of file extensions
     # recover_files(source_directory, destination_directory, extensions)
     
-    # Recover an entire folder
-    folder_to_recover = "Recover Folder or File Name"  # Replace with the folder you want to recover
+    # Recover an entire folder or file name
+    folder_to_recover = "D:\\G"  # Replace with the folder or file you want to recover
     folder_name = os.path.basename(folder_to_recover)
     setup_logging(folder_name + "_folder")  
-    recover_folder(folder_to_recover, destination_directory)
+
+    #If you want to recover whole folder use this or comment this
+    recover_folder(folder_to_recover, destination_directory) #use a recover folder recover
 
     # If you have a single file then use this
-    #recover_single_file(folder_to_recover, destination_directory)
-
-
+    #recover_single_file(folder_to_recover, destination_directory) # use recover a single file
