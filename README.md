@@ -20,9 +20,8 @@ File_Data_Recovery.py
 #Folder or File Name Mapper
 folder_map_finder.py
 
-
 #Folder or File Name
-      
+
      directory_to_scan = "D:\\G"  # Replace with your target directory
 
 # Recover an entire folder
