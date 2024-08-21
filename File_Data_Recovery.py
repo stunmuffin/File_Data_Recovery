@@ -271,7 +271,7 @@ if __name__ == "__main__":
     # recover_files(source_directory, destination_directory, extensions)
     
     # Recover an entire folder
-    folder_to_recover = "D:\\G\\23thewalk\\Sketchup 2020\\SketchUp Pro 2020 v20.0.363\\SketchUp Pro 2020 v20.0.363\\Setup.exe"  # Replace with the folder you want to recover
+    folder_to_recover = "Your Destination Folder or File Name"  # Replace with the folder you want to recover
     folder_name = os.path.basename(folder_to_recover)
     setup_logging(folder_name + "_folder")  
     recover_folder(folder_to_recover, destination_directory)
