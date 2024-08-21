@@ -21,10 +21,8 @@ folder_map_finder.py
 
 
 #Folder or File Name
-
-if __name__ == "__main__":
-    directory_to_scan = "D:\\G"  # Replace with your target directory
-
+      
+     directory_to_scan = "D:\\G"  # Replace with your target directory
 
 # Recover an entire folder
     folder_to_recover = "Your Destination Place"  # Replace with the folder you want to recover
