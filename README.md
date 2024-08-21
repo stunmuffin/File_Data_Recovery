@@ -8,3 +8,14 @@ Path Shortening: Ensures that file paths do not exceed the maximum length limits
 Free Space Check: Verifies that there is sufficient free space on the destination drive before starting the recovery process.
 Logging: Provides detailed logging of the recovery process, including successful and failed operations.
 Use this tool to efficiently recover lost or accidentally deleted files while maintaining their original structure and organization.
+
+
+#Main File
+
+File_Data_Recovery.py
+
+# Recover an entire folder
+    folder_to_recover = "Your Destination Place"  # Replace with the folder you want to recover
+
+# If you have a single file then use this
+    recover_single_file(folder_to_recover, destination_directory)
