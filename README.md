@@ -9,7 +9,7 @@ Free Space Check: Verifies that there is sufficient free space on the destinatio
 Logging: Provides detailed logging of the recovery process, including successful and failed operations.
 Use this tool to efficiently recover lost or accidentally deleted files while maintaining their original structure and organization.
 
-# No external packages are required for this script
+"# No external packages are required for this script"
 
 
 
